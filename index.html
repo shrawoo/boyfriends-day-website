@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A romantic, personalized Boyfriend's Day surprise website."
+    />
+    <title>happy boyfriend's day ♡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+    <div class="grain"></div>
+
+    <button class="music-toggle" id="musicToggle" aria-label="Play or pause music">
+      ♪
+    </button>
+
+    <button class="secret-heart" id="secretHeart" aria-label="Hidden surprise">
+      ♡
+    </button>
+
+    <section class="hero" id="landing">
+      <div class="hero-card glass">
+        <p class="eyebrow">for my favorite person</p>
+        <h1>happy boyfriend's day <span>♡</span></h1>
+        <p class="hero-subtitle">i made you a little something...</p>
+        <button class="open-btn" id="openBtn" aria-label="Open the surprise website">
+          open it →
+        </button>
+      </div>
+      <div class="floating-tag tag-one">you are loved</div>
+      <div class="floating-tag tag-two">always</div>
+      <div class="floating-tag tag-three">my favorite</div>
+    </section>
+
+    <main class="main-content" id="mainContent">
+      <section class="card intro-card reveal" id="about">
+        <div class="section-label">this is for you</div>
+        <h2>this is for you</h2>
+        <p>
+          To the person who somehow became one of my favourite parts of my everyday
+          life... I never thought I’d be the kind of person who wanted to keep a
+          little corner of my world just for you, but here we are. You make things feel
+          lighter, brighter, and a lot more alive.
+        </p>
+        <p>
+          Thank you for being you — messy, funny, thoughtful, stubborn, kind, and so
+          very easy to love. This is just a tiny reminder of how much you mean to me.
+        </p>
+      </section>
+
+      <section class="card reveal" id="timeline">
+        <div class="section-label">our little timeline</div>
+        <h2>our little timeline</h2>
+        <div class="timeline" id="timelineList" aria-live="polite"></div>
+      </section>
+
+      <section class="card reveal" id="gallery">
+        <div class="section-label">photo memories</div>
+        <h2>photo memories</h2>
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </section>
+
+      <section class="card reveal" id="qualities">
+        <div class="section-label">things i love about you</div>
+        <h2>things i love about you</h2>
+        <div class="love-grid" id="loveGrid"></div>
+      </section>
+
+      <section class="card reveal" id="quizSection">
+        <div class="section-label">a little game</div>
+        <h2>how well do you know us?</h2>
+        <div class="quiz-shell" id="quizCard"></div>
+      </section>
+
+      <section class="card reveal" id="envelopes">
+        <div class="section-label">open when...</div>
+        <h2>open when...</h2>
+        <div class="envelope-grid" id="envelopeGrid"></div>
+      </section>
+
+      <section class="card reveal final-letter" id="letterSection">
+        <div class="section-label">okay, one serious thing...</div>
+        <h2>okay, one serious thing...</h2>
+        <div class="letter-paper">
+          <textarea id="letterText" aria-label="Write a personal message">
+I keep thinking about how lucky I am that this version of us exists. The way you make ordinary days feel softer and warmer is something I never want to take for granted. Thank you for the laughter, the patience, the comfort, the late-night talks, and all the little moments that somehow turned into something really beautiful.
+
+You are one of those rare people who make life feel a little bit more meaningful just by being in it. I hope you know how deeply you are loved, and how proud I am of everything you are becoming. I love the way you care, the way you try, and the way you keep showing up in life with so much heart.
+
+I hope you never doubt how much you matter to me. You are not just someone I like a lot — you are someone I think about with warmth, gratitude, and love. I am so glad we found each other.
+
+Happy Boyfriend's Day, love. I hope this is just the start of a thousand more beautiful memories together.
+          </textarea>
+        </div>
+        <p class="signature-line">happy boyfriend's day ♡</p>
+        <p class="signature">— your girl</p>
+      </section>
+
+      <section class="final-action reveal">
+        <button class="last-btn" id="lastBtn" aria-label="Reveal the final message">
+          one last thing...
+        </button>
+        <div class="final-reveal" id="finalReveal" aria-live="polite">
+          you are very loved. don't forget that. ♡
+        </div>
+      </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+      <img id="lightboxImage" src="" alt="Memory" />
+      <p id="lightboxCaption"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

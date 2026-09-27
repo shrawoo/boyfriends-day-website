@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#f5f0ef"/>
+  <path d="M0 780C160 620 260 540 395 540C550 540 650 620 800 760V1000H0Z" fill="#eac3c9"/>
+  <circle cx="270" cy="350" r="140" fill="#efdfec"/>
+  <circle cx="530" cy="330" r="120" fill="#f4d8d8"/>
+  <text x="400" y="515" text-anchor="middle" font-size="54" fill="#5a3044" font-family="Georgia, serif">photo 5</text>
+</svg>

@@ -1,0 +1,68 @@
+# Boyfriend's Day Surprise Website
+
+A soft, modern, romantic website built as a personalized digital gift.
+
+## Run it locally
+
+1. Open the project folder in your browser by double-clicking `index.html`, or
+2. Serve it from a local web server:
+
+```bash
+cd boyfriend-day-website
+python -m http.server 8000
+```
+
+Then open:
+
+```text
+http://localhost:8000
+```
+
+## Customize it
+
+This project is designed to be easy to edit.
+
+### 1) Photos
+Replace the placeholder files in `assets/` with your own images.
+For example:
+- `assets/photo1.svg`
+- `assets/photo2.svg`
+- etc.
+
+You can also rename or swap the photo sources in `script.js` under the `albumPhotos` and `timelineItems` arrays.
+
+### 2) Names
+Edit the small personalization fields in `script.js`:
+- `yourName = 'shrawoo';`
+- `signature = '— your girl';`
+
+### 3) Dates / timeline memories
+Update the relationship moments in `script.js` under `timelineItems`.
+
+### 4) Messages
+Update the text in these places:
+- intro message in `index.html`
+- love card messages in `script.js`
+- envelope messages in `script.js`
+- final letter in `index.html` textarea
+
+### 5) Quiz questions
+Edit the questions and answers in `script.js` under `quizQuestions`.
+
+### 6) Music
+The site includes a `musicToggle` button and a fallback sound generator.
+If you want to use a real song, place your file near the project root as `song.mp3` and the code will try to use it automatically.
+
+## Files
+
+- `index.html` — page structure
+- `styles.css` — visual design and responsive styling
+- `script.js` — content, interactions, quiz logic, music toggle, and timeline/gallery logic
+- `assets/` — placeholder images for gallery and timeline
+
+## Notes
+
+- This is mobile-friendly and keyboard-accessible.
+- There are no external copyrighted images used.
+- All content is intentionally easy to replace with your own photos and messages.
+- The design has a romantic scrapbook feel without being childish or overdone.
